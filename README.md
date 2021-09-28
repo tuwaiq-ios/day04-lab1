@@ -12,15 +12,14 @@
 
 
 ## Description
-1. Task 1 — 
+1. Task 1 
 Write a program to create a class named shape. In this class we have three
 sub classes circle, triangle and square each class has two member function
 named draw () and erase (). Create these using polymorphism concepts. 
 
 
 2. Task 2 
- Write a program to calculate the student total and average marks of the given subjects
-using structures.
+Imagine that you are creating some kind of app for monitoring location. Create a GPS struct with two variable properties, latitude and longitude both with defualt values of 0.0
 
 ## DeadLine 
 Wednesday 29 September
