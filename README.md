@@ -21,5 +21,7 @@ named draw () and erase (). Create these using polymorphism concepts.
 2. Task 2: 
 Imagine you are making a social app for sharing your favorite books. Create a Book struct with four variable properties: title, auther, pages and price. The default values for both title and auther should be ann empty sting, pages should be defualt to 0, and price should be default to 0.0
 
+3. Task 3: Create a variable instance of Book called favoriteBook without supplying any arguments. Print out the title of the favoriteBook. Does it currently reflect the title of your favorite book? propapbly not, Change all four proproties of favoriteBook to reflect your favorite book. Then using the proprities of favorite book, print out facts about the book
+
 ## DeadLine 
 Wednesday 29 September
