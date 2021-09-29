@@ -1,4 +1,8 @@
 //Task 1
+
+
+
+
 import Darwin
 
  class NamedShape {
@@ -9,6 +13,7 @@ import Darwin
          return 0
      }
  }
+
 
 
  class Circle: NamedShape {
@@ -61,12 +66,15 @@ import Darwin
      }
 
      override func volume() -> Double {
-         return Length*4
+         return Length * 4
      }
  }
 
 
- //Task 2
+
+
+
+//Task 2
 
  struct Book {
      var Title = ""
@@ -105,7 +113,14 @@ import Darwin
  }
 
 
+
+
  // task 5
+
+
+
+
+
  class distance {
 
      var feet: Int
@@ -122,6 +137,6 @@ import Darwin
 
  }
  var fee = distance(feet: 0, inches: 0)
- var inch = distance(feet: 11, inches: 23)
+ var inch = distance(feet: 3, inches: 55)
 
  fee.format()
