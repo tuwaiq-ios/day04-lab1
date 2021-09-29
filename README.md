@@ -28,8 +28,7 @@ Create a variable instance of Book called favoriteBook without supplying any arg
 Write a program to create a class that has array of 6 elements. Then, return the sum of the elements in the array, the maximum, minimum value of the array. 
 
 5. Task 5:
-Create a class called distance that has a separate integer member data for feet and inches. One constructor should initilize this data to zero and another should initilize it to fixed values. A member function should display it in feet onches format.
-
+Create a class called d that has a separate integer member data for feet and inches. One constructor should initilize this data to zero and another should initilize it to fixed values. A member function should display it in feet onches format.
 
 ## DeadLine 
 Wednesday 29 September
