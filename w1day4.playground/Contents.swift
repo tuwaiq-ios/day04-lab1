@@ -7,7 +7,7 @@ class Shape{
     func area() -> Double{
         return 0
     }
-    func di() -> Double{
+    func volume() -> Double{
         return 0
     }
             
@@ -21,39 +21,32 @@ class Circle : Shape {
     override func area() -> Double {
         return Double.pi * radius * radius
     }
-    override func di() -> Double {
-        return 0
+    override func volume() -> Double {
+        return Double.pi * radius * 2
     }
 }
     
 class Triangle : Shape {
-    var base : Double
-    var hight : Double
-    init(base : Double, hight :Double) {
-        self.base = base
-        self.hight = hight
-        super.init()
-    }
+    var base : Double = 4
+    var hight : Double = 4
+    var width : Double = 4
     override func area() -> Double {
         return  0.5 * (base * hight)
     }
-    override func di() -> Double {
-        return 0
+    override func volume() -> Double {
+        return base + hight + width
     }
 }
 class Square : Shape {
-    var height : Double
-    var width : Double
-    init(height : Double, width: Double){
-        self.height = height
-        self.width = width
-        super.init()
-    }
+    var height : Double = 4
+    var width : Double = 4
+    var length : Double = 4
+    
     override func area() -> Double {
         return(height * width)
     }
-    override func di() -> Double {
-        return 0
+    override func volume() -> Double {
+        return 4 * length
     }
 }
 
