@@ -80,22 +80,31 @@ print(favoriteBook.pages)
 print(favoriteBook.price)
 
 //Task4
+class sa {
 let numbers: [Int] = [1,2,3,4,5,6]
-var min = numbers.min()
-var max = numbers.max()
-var sum: Int = 0
-
+var minn = 0
+var maxx = 0
+var sum = 0
+    func ssum() -> Int {
 for number in numbers {
  sum = sum + number
 }
+    return sum
+}
+func maxi() -> Int{
+    return numbers.max()!
+}
+    func mini() -> Int {
+        return numbers.min()!
+    }
+}
+var disb = sa()
 print("the sum of all numbers is:")
-print(sum)
-
+print(disb.ssum())
 print("min is:")
-print(min)
-
+print(disb.mini())
 print("max is:")
-print(max)
+print(disb.maxi())
 
 //Task 5
 class Distance {
