@@ -1,5 +1,6 @@
 import UIKit
 import Darwin
+import CoreGraphics
 
 var greeting = "Hello, playground"
 //Task1
@@ -24,8 +25,12 @@ class Circle : Shape {
     override func volume() -> Double {
         return Double.pi * radius * 2
     }
-}
     
+}
+var show1 = Circle(radius: 4)
+print("The area of circle is \(show1.area())")
+print("The volume of circle is \(show1.volume())")
+
 class Triangle : Shape {
     var base : Double = 4
     var hight : Double = 4
@@ -37,19 +42,26 @@ class Triangle : Shape {
         return base + hight + width
     }
 }
+var show2 = Triangle()
+print("The area of triangle is \(show2.area())")
+print("the vloume of triangle is \(show2.volume())")
+
 class Square : Shape {
     var height : Double = 4
     var width : Double = 4
-    var length : Double = 4
+    var length : Double = 6
     
     override func area() -> Double {
+
         return(height * width)
     }
     override func volume() -> Double {
         return 4 * length
     }
 }
-
+var show3 = Square()
+print("The area of Square is \(show3.area())")
+print("The volume of square is \(show3.volume())")
 
 //Task 2
 struct books{
@@ -113,5 +125,3 @@ class Distance{
 }
 var display = Distance(feet : 0, inch : 1)
 display.disFormate()
-
-
